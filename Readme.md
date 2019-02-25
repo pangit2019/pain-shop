@@ -29,12 +29,9 @@ Your program should accept an input file as a command line argument, and print a
 ## How to run
 
 - Compile and build project using command `mvn clean install`
-- Go to target folder and run following command
+- Run following command with path of input file:
 
 ```
-java -jar -DfilePath="c:\paint-shop-application\src\test\resources\Scenario1.txt" paint-shop-application-0.0.1-SNAPSHOT.jar
+java -jar target\paint-shop-application-0.0.1-SNAPSHOT.jar "<file_path>"
 ```
 
-*Note*
-
-- filePath is path of file to read. Please change it to your file path.
